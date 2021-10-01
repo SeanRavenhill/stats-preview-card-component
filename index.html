@@ -1,33 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Sean Ravenhill" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+		<link rel="stylesheet" href="styles/styles.css" />
+		<title>Frontend Mentor | Stats preview card component</title>
+	</head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
+	<body>
+		<main>
+			<div class="container">
+				<div class="card">
+					<img class="card__image" src="images/image-header-mobile.jpg" alt="Group of woman working at their desks in open plan office." />
+					<div class="card-info">
+						<h2 class="card-info__title">
+							Get
+							<span class="card-info__title card-info__title--accent">insights</span>
+							that help your business grow.
+						</h2>
+						<p class="card-info__descr">
+							Discover the benefits of data analytics and make better decisions
+							regarding revenue, customer experience, and overall efficiency.
+						</p>
+					</div>
+					<div class="card-stats">
+						<div class="card-stat">
+							<h2 class="card-stat__quant">10k+</h2>
+							<p class="card-stat__descr">companies</p>
+						</div>
+						<div class="card-stat">
+							<h2 class="card-stat__quant">314</h2>
+							<p class="card-stat__descr">templates</p>
+						</div>
+						<div class="card-stat">
+							<h2 class="card-stat__quant">12m+</h2>
+							<p class="card-stat__descr">queries</p>
+						</div>
+					</div>
+				</div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+				<div class="attribution">
+					Challenge by
+					<a
+						class="attribution__link"
+						href="https://www.frontendmentor.io?ref=challenge"
+						target="_blank"
+						>Frontend Mentor</a
+					>.&nbsp; Coded by
+					<a
+						class="attribution__link"
+						href="https://github.com/SeanRavenhill"
+						target="_blank"
+						>Sean Ravenhill</a
+					>.
+				</div>
+			</div>
+		</main>
+	</body>
 </html>
