@@ -17,7 +17,6 @@
 	--clr-neutral-white: hsl(0, 0%, 100%);
 	--clr-neutral-main-paragraph: hsla(0, 0%, 100%, 0.75);
 	--clr-neutral-main-stat-headings: hsla(0, 0%, 100%, 0.6);
-	--fs-title: 2.8rem;
 	--fs-body: 1.5rem;
 }
 
@@ -115,7 +114,7 @@ a {
 
 .card-info__title {
 	font-weight: var(--fw-bold);
-	font-size: var(--fs-title);
+	font-size: 2.8rem;
 	margin-bottom: 2.8rem;
 }
 
@@ -141,7 +140,7 @@ a {
 }
 
 .card-stat__quant {
-	font-size: var(--fs-title);
+	font-size: 2.6rem;
 	margin-bottom: 1.6rem;
 }
 
